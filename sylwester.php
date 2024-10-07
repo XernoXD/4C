@@ -6,9 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <?php $poczatek = 'Ala ma' ; $liczba = 4 ; $koniec = 'koty' ; ?>
-    <?php echo ('$poczatek $liczba $koniec a chce mieć jeszcze dwa.')
-
-    ?>
+    <p>Najbliższy <strong>sylwester</strong> wypada w
+     <strong><?=date('N', strtotime('31-12-2024'))?></strong> 
+     dniu tygodnia</p>
 </body>
 </html>
